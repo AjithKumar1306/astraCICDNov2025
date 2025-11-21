@@ -22,7 +22,7 @@ jobs:
    - name: Install Dependecies
      run: |
        python -m pip install --upgrade pip
-       pip install -r locationsapi/requirements.txt
+       pip install -r locationapi/requirements.txt
        pip install coverage
    - name: Run tests with coverage
      run: |
